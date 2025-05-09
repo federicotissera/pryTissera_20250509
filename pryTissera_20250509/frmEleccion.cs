@@ -19,7 +19,34 @@ namespace pryTissera_20250509
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            cmbHeroes.Items.Add("Superman");
+            cmbHeroes.Items.Add("Batman");
+            cmbHeroes.Items.Add("Goku");
+        }
 
+        private void cmbHeroes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string heroe = cmbHeroes.SelectedItem.ToString();
+
+            switch(heroe)
+            {
+                case "Superman":
+
+
+                    return;
+                case "Batman":
+
+
+
+                    return;
+                case "Goku":
+
+
+
+                    return;
+                default:
+                    return;
+            }
         }
     }
 }
